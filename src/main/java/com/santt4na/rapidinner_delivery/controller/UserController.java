@@ -3,10 +3,11 @@ package com.santt4na.rapidinner_delivery.controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.santt4na.rapidinner_delivery.entities.Customer;
-import com.santt4na.rapidinner_delivery.entities.DeliveryMan;
-import com.santt4na.rapidinner_delivery.entities.User;
+import com.santt4na.rapidinner_delivery.entities.identity.Customer;
+import com.santt4na.rapidinner_delivery.entities.identity.DeliveryMan;
+import com.santt4na.rapidinner_delivery.entities.identity.User;
 import com.santt4na.rapidinner_delivery.enums.Role;
+
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -35,12 +36,9 @@ public class UserController {
         Role.ROLE_DELIVERYMAN);
 
     Customer customer = new Customer();
-    customer.setPhone("11999998888");
-    customer.setAddress("Local Host kk, 123");
     customer.setUser(userCustomer);
 
     DeliveryMan deliveryMan = new DeliveryMan();
-    deliveryMan.setVehicle("Moto XYZ");
     deliveryMan.setAvailable(true);
     deliveryMan.setUser(userDeliveryMan);
 
@@ -50,5 +48,4 @@ public class UserController {
     log.info("EndPoint '/test' Accessed");
     return msg;
   }
-
 }
