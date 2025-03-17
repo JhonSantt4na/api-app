@@ -1,4 +1,4 @@
-package com.santt4na.rapidinner_delivery.utils;
+package com.santt4na.rapidinner_delivery.model;
 
 import java.math.BigDecimal;
 

@@ -1,12 +1,12 @@
-package com.santt4na.rapidinner_delivery.entities.identity;
+package com.santt4na.rapidinner_delivery.model.identity;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.santt4na.rapidinner_delivery.entities.order_management.Order;
-import com.santt4na.rapidinner_delivery.utils.Address;
+import com.santt4na.rapidinner_delivery.model.Address;
+import com.santt4na.rapidinner_delivery.model.order_management.Order;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;

@@ -1,11 +1,11 @@
-package com.santt4na.rapidinner_delivery.entities.order_management;
+package com.santt4na.rapidinner_delivery.model.order_management;
 
 import java.time.LocalDateTime;
 
-import com.santt4na.rapidinner_delivery.entities.identity.Customer;
-import com.santt4na.rapidinner_delivery.entities.identity.DeliveryMan;
 import com.santt4na.rapidinner_delivery.enums.DeliveryStatus;
-import com.santt4na.rapidinner_delivery.utils.Location;
+import com.santt4na.rapidinner_delivery.model.Location;
+import com.santt4na.rapidinner_delivery.model.identity.Customer;
+import com.santt4na.rapidinner_delivery.model.identity.DeliveryMan;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embedded;

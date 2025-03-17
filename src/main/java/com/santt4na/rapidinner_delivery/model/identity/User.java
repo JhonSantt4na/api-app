@@ -1,4 +1,4 @@
-package com.santt4na.rapidinner_delivery.entities.identity;
+package com.santt4na.rapidinner_delivery.model.identity;
 
 import java.time.Instant;
 

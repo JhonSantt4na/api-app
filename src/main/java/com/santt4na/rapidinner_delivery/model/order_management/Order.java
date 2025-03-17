@@ -1,4 +1,4 @@
-package com.santt4na.rapidinner_delivery.entities.order_management;
+package com.santt4na.rapidinner_delivery.model.order_management;
 
 import java.math.BigDecimal;
 import java.time.Instant;
@@ -8,11 +8,11 @@ import java.util.List;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
-import com.santt4na.rapidinner_delivery.entities.identity.Customer;
-import com.santt4na.rapidinner_delivery.entities.identity.DeliveryMan;
 import com.santt4na.rapidinner_delivery.enums.OrderState;
-import com.santt4na.rapidinner_delivery.utils.Address;
-import com.santt4na.rapidinner_delivery.utils.Payment;
+import com.santt4na.rapidinner_delivery.model.Address;
+import com.santt4na.rapidinner_delivery.model.Payment;
+import com.santt4na.rapidinner_delivery.model.identity.Customer;
+import com.santt4na.rapidinner_delivery.model.identity.DeliveryMan;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -27,6 +27,7 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
+import jakarta.persistence.Table;
 import jakarta.persistence.Version;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.Digits;
@@ -42,6 +43,7 @@ import lombok.extern.log4j.Log4j2;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "order_tb")
 public class Order {
 
   @Version

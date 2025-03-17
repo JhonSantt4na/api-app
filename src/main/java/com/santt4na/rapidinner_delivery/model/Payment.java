@@ -1,11 +1,11 @@
-package com.santt4na.rapidinner_delivery.utils;
+package com.santt4na.rapidinner_delivery.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-import com.santt4na.rapidinner_delivery.entities.order_management.Order;
 import com.santt4na.rapidinner_delivery.enums.PaymentMethod;
 import com.santt4na.rapidinner_delivery.enums.PaymentState;
+import com.santt4na.rapidinner_delivery.model.order_management.Order;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
