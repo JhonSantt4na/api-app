@@ -3,10 +3,10 @@ package com.santt4na.rapidinner_delivery.controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.santt4na.rapidinner_delivery.entities.identity.Customer;
-import com.santt4na.rapidinner_delivery.entities.identity.DeliveryMan;
-import com.santt4na.rapidinner_delivery.entities.identity.User;
 import com.santt4na.rapidinner_delivery.enums.Role;
+import com.santt4na.rapidinner_delivery.model.identity.Customer;
+import com.santt4na.rapidinner_delivery.model.identity.DeliveryMan;
+import com.santt4na.rapidinner_delivery.model.identity.User;
 
 import lombok.extern.slf4j.Slf4j;
 

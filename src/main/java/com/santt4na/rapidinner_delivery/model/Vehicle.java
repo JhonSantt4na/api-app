@@ -1,7 +1,7 @@
-package com.santt4na.rapidinner_delivery.utils;
+package com.santt4na.rapidinner_delivery.model;
 
-import com.santt4na.rapidinner_delivery.entities.identity.DeliveryMan;
 import com.santt4na.rapidinner_delivery.enums.VehicleType;
+import com.santt4na.rapidinner_delivery.model.identity.DeliveryMan;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

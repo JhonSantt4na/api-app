@@ -1,4 +1,4 @@
-package com.santt4na.rapidinner_delivery.entities.order_management;
+package com.santt4na.rapidinner_delivery.model.order_management;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

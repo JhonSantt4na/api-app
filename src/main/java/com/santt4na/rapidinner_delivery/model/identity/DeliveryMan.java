@@ -1,10 +1,10 @@
-package com.santt4na.rapidinner_delivery.entities.identity;
+package com.santt4na.rapidinner_delivery.model.identity;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-import com.santt4na.rapidinner_delivery.utils.Location;
-import com.santt4na.rapidinner_delivery.utils.Vehicle;
+import com.santt4na.rapidinner_delivery.model.Location;
+import com.santt4na.rapidinner_delivery.model.Vehicle;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;

@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "RapidinnerDeliveryApplication",
+      "request": "launch",
+      "mainClass": "com.santt4na.rapidinner_delivery.RapidinnerDeliveryApplication",
+      "projectName": "rapidinner-delivery"
+    },
+    {
+      "type": "java",
+      "name": "Launch RapidinnerDeliveryApplication",
+      "request": "launch",
+      "mainClass": "com.santt4na.rapidinner_delivery.RapidinnerDeliveryApplication",
+      "projectName": "Rapidinner",
+      "args": "--spring.profiles.active=dev"
+    }
+  ]
+}

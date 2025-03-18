@@ -1,6 +1,6 @@
 package com.santt4na.rapidinner_delivery.helpers;
 
-import com.santt4na.rapidinner_delivery.entities.identity.Admin;
+import com.santt4na.rapidinner_delivery.model.identity.Admin;
 
 public class RemoveAdmin {
   public void removeAdmin(Admin admin) {
